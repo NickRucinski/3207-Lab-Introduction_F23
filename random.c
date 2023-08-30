@@ -1,7 +1,7 @@
 #include <stdio.h>
+#include <time.h>
 #include "random.h"
 
-int main(){
-
-    return 0;
+char randchar(){
+    return (rand() % (90 - 65 - 1)) + 65;
 }
